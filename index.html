@@ -28,19 +28,19 @@
         <a href="/" class="logo"><span class="web">Web</span>Studio</a>
         <nav class="nav-container">
           <ul class="site-nav">
-            <li class="nav-item" ><a href="" class="link" id="studio">Студия</a></li>
-            <li class="nav-item">
-              <a href="./portfolio.html" class="link">Портфолио</a>
+            <li class="site-nav__item" ><a href="" class="site-nav__link" id="studio">Студия</a></li>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
             </li>
-            <li class="nav-item"><a href="" class="link">Контакты</a></li>
+            <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
           </ul>
         </nav>
         <div class="auth-nav">
         <ul class="auth-nav">
-          <li class="auth-item">
+          <li class="auth-nav__item">
             
-            <a href="mailto:info@devstudio.com" class="auth-link"
-              ><svg class="mailto">
+            <a href="mailto:info@devstudio.com" class="auth-nav__link"
+              ><svg class="auth-nav__icon-mail">
                 <use href = "./images/icons.svg#icon-mailto">
 
                 </use>
@@ -51,10 +51,10 @@
             >
             
           </li>
-          <li class="auth-item">
+          <li class="auth-nav__item">
             
-            <a href="tel:+380961111111" class="auth-link">
-              <svg class="icon-smartphone">
+            <a href="tel:+380961111111" class="auth-nav__link">
+              <svg class="auth-nav__icon-smartphone">
                 <use href= "./images/icons.svg#icon-smartphone"></use>
               </svg>
               
@@ -82,7 +82,7 @@
               <h1>Эффективные решения для вашего бизнеса</h1>
            </div>
            <div class="button">
-            <button type="button" name="button" class="hero-button" data-modal-open >
+            <button type="button" name="button" class="order-service-button" data-modal-open >
               Заказать услугу
             </button>
             </div>
@@ -92,9 +92,9 @@
         
           <div class="backdrop is-hidden " data-modal>
             <div class="modal">
-              <form action="" class="form">
-                <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
-                <div class="form-field">
+              <form action="" class="modal-form">
+                <h2 class="modal-form_title">Оставьте свои данные, мы вам перезвоним</h2>
+                <div class="modal__form-field">
                 <label > <span>Имя</span>
                   <div class="name-icon">
                   <input type="name" name="name" class="form-input" >
@@ -106,7 +106,7 @@
                   </div>
                 </label>
                 </div>
-               <div class="form-field">
+               <div class="modal__form-field">
                   <label ><span>Телефон</span>
                     <div class="name-tel">
                   <input type="tel" name="tel" >
@@ -119,7 +119,7 @@
                 </label> 
               </div>
                
-              <div class="form-field"> 
+              <div class="modal__form-field"> 
                 <label ><span>Почта</span>
                   <div class="name-email">
                   <input type="email" name="email" >
@@ -131,7 +131,7 @@
                   </div>
                 </label>
               </div>
-                <div class="form-field">
+                <div class="modal__form-field">
                   <label > <span>Комментарий</span>
                   <textarea name="coment"  rows="10" placeholder="Введите текст"></textarea>
                 </label>
