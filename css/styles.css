@@ -833,7 +833,7 @@ a {
 
 /* ===========  form ===========*/
 
-.modal__form_title {
+.modal__form-title {
   margin-bottom: 12px;
   width: 100%;
 
@@ -936,7 +936,7 @@ textarea {
   margin: 0;
 }
 
-.agrees a {
+.modal__agrees a {
   color: var(--accent-color);
   text-decoration: underline;
 }
