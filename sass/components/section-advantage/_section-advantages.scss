@@ -1,0 +1,41 @@
+.section-advantage {
+  padding-top: 94px;
+}
+.advantages {
+  display: flex;
+
+  &__item {
+    width: 270px;
+  }
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__title {
+    color: var(--primary-text-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  &__text {
+    color: var(--secondly-text-color);
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.72;
+  }
+  &__bag {
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    padding: 25px 100px;
+  }
+  &__icon {
+    height: 70px;
+    width: 70px;
+  }
+}
