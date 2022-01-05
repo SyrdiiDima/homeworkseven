@@ -26,7 +26,7 @@ ul {
 }
 
 a {
-  color: var(--primery-text-color);
+  color: $primery-text-color;
   text-decoration: none;
   cursor: default;
 }
@@ -39,7 +39,7 @@ a {
 }
 
 body {
-  background-color: var(--white-color);
-  color: var(--primery-text-color);
+  background-color: $white-color;
+  color: $primery-text-color;
   font-family: Roboto, sans-serif;
 }
